@@ -1,0 +1,36 @@
+Segunda-feira a Sexta-feira:
+
+Manhã/Tarde (4 horas diárias):
+
+HTML5 e CSS3: Dedique-se a aprender os conceitos fundamentais do HTML5 (estruturação de páginas, elementos semânticos, formulários) e CSS3 (estilização, flexbox, grid layout).
+Responsive Design: Estude como tornar seus projetos responsivos, para que eles se adaptem a diferentes dispositivos e tamanhos de tela.
+Javascript Básico: Inicie o aprendizado da linguagem JavaScript, focando nos conceitos essenciais (variáveis, funções, condicionais e loops).
+Prática: Realize pequenos projetos de HTML, CSS e JavaScript para consolidar o que aprendeu.
+Noite (2 horas diárias):
+
+Framework Front-end: Escolha um dos principais frameworks front-end (por exemplo, React, Vue.js ou Angular) e comece a explorá-lo.
+Controle de Versão: Aprenda a usar o Git e plataformas de hospedagem como o GitHub para gerenciar seus projetos.
+Sábado:
+
+Manhã (4 horas):
+
+Aprofundamento no Framework: Dedique-se a explorar mais profundamente o framework que escolheu. Faça tutoriais e projetos mais complexos.
+Acessibilidade: Estude como tornar seus projetos mais acessíveis para pessoas com deficiências, seguindo as diretrizes de acessibilidade da Web (WCAG).
+Tarde (4 horas):
+
+Prática de Projeto: Trabalhe em um projeto pessoal ou participe de um projeto de código aberto para aplicar seus conhecimentos de forma prática.
+Debugging e Testes: Aprenda a depurar e testar seus projetos para garantir um código mais sólido e confiável.
+Domingo:
+
+Manhã (4 horas):
+
+Estudo de Design: Dedique um tempo para estudar princípios básicos de design e aprofunde-se no uso de ferramentas de design gráfico (por exemplo, Adobe Photoshop ou Figma).
+Portfólio e Currículo: Atualize seu portfólio online e currículo, incluindo os projetos que você trabalhou e suas habilidades adquiridas.
+Tarde (4 horas):
+
+Exploração e Desafios: Resolva desafios de programação online em sites como o LeetCode, HackerRank ou CodeWars para aprimorar suas habilidades em algoritmos e lógica.
+Leitura e Aprendizado: Leia artigos e blogs sobre as tendências atuais em desenvolvimento front-end e fique atualizado com as novidades da área.
+
+https://github.com/iamshaunjp/css-grid-layouts/tree/starter-files
+https://github.com/matheusbattisti/curso_bootstrap
+https://github.com/pixelcog/parallax.js/

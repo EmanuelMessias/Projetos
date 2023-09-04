@@ -1,0 +1,144 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Itens por padrão começam na vertical,
+     quando aplicado o flexbox, passam para a horizontal lado esquerdo*/
+
+/*Se quiser trocar a direção padrão,
+      para o lado contrário, utilizar o (flex-direction:row-reverse)*/
+
+/*Se quiser deixar como padrão, utilizar o (flex-direction:column)*/
+
+/*Se quiser deixar como padrão, porém, para o lado contrário utilizar o 
+    (flex-direction:column-reverse)*/
+
+/*Além do flexbox, pode-se utilizar o justify-content*/
+
+/*Para deixar os itens do lado horizontal esquerdo, (justify-content:flex-start;)*/
+
+/*Para deixar os itens do lado horizontal direito, (justify-content:flex-end;)*/
+
+/*Para deixar os itens no centro, (justify-content:center;)*/
+
+/*Para deixar os itens dividos pela box pai (justify-content:space-between;)*/
+
+/*Para deixar os itens dividos pela box pai, com espaço fora também(justify-content:space-around;)*/
+
+/*Além do justify-content e flex-box, pode-se utilizar o align-itens*/
+
+/*Para colocar os itens pra cima, pode-se utilizar o (align-itens:flex-start;)*/
+
+/*Para colocar os itens pra baixo, pode-se utilizar o (align-itens:flex-end;)*/
+
+/*Para colocar os itens no meio (Nem em cima, Nem em baixo), pode-se utilizar o (align-itens:center;)
+
+/*Para ocupar toda a parte de cima (Se não tiver uma altura definida), pode-se utilizar o (align-itens:stretch;)*/
+
+/*Para alinhar os textos, com base no conteúdo, utilize (align-itens:baseline;)*/
+
+/*Para deixar os elementos na mesma linha, utilize o (flex-wrap: nowrap;)
+
+/*Para deixar o que os elementos utrapassem essa linha, utilize o (flex-wrap: wrap;)*/
+
+/*Para deixar que os elementos utrapassem a linha, só que em cima, ou invês de para baixo
+utilize (flex-wrap:wrap-reverse;)*/
+
+/*Para utilizar os comandos (flex-box e flex-wrap), utilize o (flex-flow:row wrap;)*/
+
+/*Para alinhar os elementos em mais de uma linha, utilize o (align-content)*/
+
+/*Se quiser alinhar as duas linhas para cima, utilize (align-content:flex-start;)*/
+
+/*Se quiser alinhar as duas linhas para baixo, utilize (align-content:flex-end;)*/
+
+/*Se quiser alinhar as duas linhas no centro, utilize (align-content:center;)*/
+
+/*Se quiser alinhar com espaço entre elas, utilize (align-content:space-between;)*/
+
+/*Se quiser alinhar com espaço entre elas com uma margem por fora, utilize (align-content:space-around;)*/
+
+/*Para dar um espaço entre os elementos, utilize o (gap)*/
+
+/*Para dar um espaço entre os elementos em vertical, utilize o (row-gap)*/
+
+/*Para dar um espaço entre os elementos na horizontal, utilize o (column-gap)*/
+
+/*Para colocar uma Ordem nos elementos filhos, utilizar o (order) lembrando que sempre 
+começa do 0 por padrão*/
+
+/*Para um item "Crescer" caso for nescessário, utilize (flex-grow) por padrão, começa com 0 
+o número vai de acordo com a proporção*/
+
+/*Para um item "Encolher" caso for nescessário, utilize (flex-shrink) por padrão, começa com 1 
+o número vai de acordo com a proporção, precisa setar largura no elemento pai e colocar no nowrap*/
+
+/*Para setar o tamanho dos elementos utilize (flex-basis)*/
+
+/*Para misturar os elementos, utilize o (flex: 0 1 auto;)*/
+
+/*Para ignorar o Align-itens, num elemento filho utilize (align-self:flex end, center ou flex-start)*/
+
+.container{ 
+    border: solid 2px red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    row-gap:20px;
+    column-gap:30px;
+    align-content: center;
+    padding: 15px;
+    height: 500px;
+    background-color: beige;
+}
+
+#box{
+
+    height: 120px;
+    width: 120px;
+
+}
+
+.box-1{
+    font-size: 20px;
+    border: solid 2px green;
+    background-color: green;
+    padding:10px;
+    border-radius: 15px;
+    order:0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+
+}
+
+.box-2{
+    border: blue solid 2px;
+    background-color: blue;
+    padding:10px;
+    border-radius: 15px;
+    order:0;
+    flex: 0 1 auto;
+}
+
+.box-3{
+    border: 2px yellow solid;
+    background-color: yellow;
+    padding:10px;
+    border-radius: 15px;
+    order:0;
+    flex: 0 1 auto;
+
+}
+
+.box-4{
+    border: 2px rgb(255, 123, 0) solid;
+    background-color: rgb(255, 115, 0);
+    padding:10px;
+    border-radius: 15px;
+    order:0;
+    flex: 0 1 auto;
+
+
+}

@@ -1,0 +1,67 @@
+
+h1{
+    color: rgb(226, 46, 46);
+}
+
+/* 2 -Sintaxe */
+@media screen and (max-width: 720px) {
+
+    h1{
+        color: blue;
+    }
+
+}
+/* 3 - Outros modos */
+/* Screen, print, speech, all */
+@media print and (max-width:720px) {
+h1{
+    color: green;
+}
+
+}
+
+/* 4- Todos os modos */
+/* min-width > max-width */
+@media (max-width: 720px){
+
+h2{
+    color: purple;
+}
+
+}
+/* 5 - Mobile first */
+/* min-width > max-width */
+@media (min-width: 200px) {
+    h2{
+        color: teal;
+    }
+}
+/* 6 - AND na media Query */
+@media (min-width:700px) and (max-width:800px) {
+    h3{
+        font-size: 3em;
+    }
+}
+
+/* 7 - Orientation */
+/* Tela deitada */
+@media (orientation: landscape ){
+    h3{
+        color: brown;
+    }
+}
+
+/* OR na media Query */
+/* Usar dois recursos ao mesmo tempo */
+@media (max-width: 200px) and (orientation: landscape ){
+    h3{
+       color: brown; 
+    }
+}
+
+/* 9 - Cuidados ao Aplicar*/
+/* A ordem importa*/
+/* MQ são as últimas regras */
+@media (min-width:600px){
+  
+}

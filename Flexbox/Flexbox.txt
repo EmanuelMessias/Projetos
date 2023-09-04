@@ -1,0 +1,76 @@
+Itens por padrão começam na vertical,
+     quando aplicado o flexbox, passam para a horizontal lado esquerdo
+
+Se quiser trocar a direção padrão,
+      para o lado contrário, utilizar o (flex-directionrow-reverse)
+
+Se quiser deixar como padrão, utilizar o (flex-directioncolumn)
+
+Se quiser deixar como padrão, porém, para o lado contrário utilizar o 
+    (flex-directioncolumn-reverse)
+
+Além do flexbox, pode-se utilizar o justify-content
+
+Para deixar os itens do lado horizontal esquerdo, (justify-contentflex-start;)
+
+Para deixar os itens do lado horizontal direito, (justify-contentflex-end;)
+
+Para deixar os itens no centro, (justify-contentcenter;)
+
+Para deixar os itens dividos pela box pai (justify-contentspace-between;)
+
+Para deixar os itens dividos pela box pai, com espaço fora também(justify-contentspace-around;)
+
+Além do justify-content e flex-box, pode-se utilizar o align-itens
+
+Para colocar os itens pra cima, pode-se utilizar o (align-itensflex-start;)
+
+Para colocar os itens pra baixo, pode-se utilizar o (align-itensflex-end;)
+
+Para colocar os itens no meio (Nem em cima, Nem em baixo), pode-se utilizar o (align-itenscenter;)
+
+Para ocupar toda a parte de cima (Se não tiver uma altura definida), pode-se utilizar o (align-itensstretch;)
+
+Para alinhar os textos, com base no conteúdo, utilize (align-itensbaseline;)
+
+Para deixar os elementos na mesma linha, utilize o (flex-wrap nowrap;)
+
+Para deixar o que os elementos utrapassem essa linha, utilize o (flex-wrap wrap;)
+
+Para deixar que os elementos utrapassem a linha, só que em cima, ou invês de para baixo
+utilize (flex-wrapwrap-reverse;)
+
+Para utilizar os comandos (flex-box e flex-wrap), utilize o (flex-flowrow wrap;)
+
+Para alinhar os elementos em mais de uma linha, utilize o (align-content)
+
+Se quiser alinhar as duas linhas para cima, utilize (align-contentflex-start;)
+
+Se quiser alinhar as duas linhas para baixo, utilize (align-contentflex-end;)
+
+Se quiser alinhar as duas linhas no centro, utilize (align-contentcenter;)
+
+Se quiser alinhar com espaço entre elas, utilize (align-contentspace-between;)
+
+Se quiser alinhar com espaço entre elas com uma margem por fora, utilize (align-contentspace-around;)
+
+Para dar um espaço entre os elementos, utilize o (gap)
+
+Para dar um espaço entre os elementos em vertical, utilize o (row-gap)
+
+Para dar um espaço entre os elementos na horizontal, utilize o (column-gap)
+
+Para colocar uma Ordem nos elementos filhos, utilizar o (order) lembrando que sempre 
+começa do 0 por padrão
+
+Para um item Crescer caso for nescessário, utilize (flex-grow) por padrão, começa com 0 
+o número vai de acordo com a proporção
+
+Para um item Encolher caso for nescessário, utilize (flex-shrink) por padrão, começa com 1 
+o número vai de acordo com a proporção, precisa setar largura no elemento pai e colocar no nowrap
+
+Para setar o tamanho dos elementos utilize (flex-basis)
+
+Para misturar os elementos, utilize o (flex 0 1 auto;)
+
+Para ignorar o Align-itens, num elemento filho utilize (align-selfflex end, center ou flex-start)
